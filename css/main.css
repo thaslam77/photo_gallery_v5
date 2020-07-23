@@ -1,0 +1,35 @@
+.main-wrapper {
+    margin: auto;
+    max-width: 1500px;
+}
+
+.inputDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.inner-wrapper {
+    max-width: 75%;
+    margin: auto;    
+}
+
+#myInput {    
+    margin-top: 50px;
+    text-indent: 10px;          
+    width: 35%;
+    height: 40px;
+    border-color: lightgray;
+    border-radius: 5px;
+  }
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;    
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.gallery ul img {
+    margin: 15px;
+}
