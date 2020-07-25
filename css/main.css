@@ -4,17 +4,13 @@
 }
 
 .inputDiv {
-    display: flex;
-    justify-content: center;
-}
-
-.inner-wrapper {
-    max-width: 75%;
-    margin: auto;    
+    display: grid;
+    justify-items: center;
 }
 
 #myInput {    
     margin-top: 50px;
+    margin-bottom: 15px;
     text-indent: 10px;          
     width: 35%;
     height: 40px;
@@ -22,14 +18,14 @@
     border-radius: 5px;
   }
 
-.gallery ul {
-    display: flex;
-    flex-wrap: wrap;    
-    list-style: none;
-    justify-content: center;
+  .gallery ul {
     padding: 0;
+    list-style: none;
 }
 
-.gallery ul img {
-    margin: 15px;
+.gallery ul {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 20px;
+    justify-content: center;
 }
